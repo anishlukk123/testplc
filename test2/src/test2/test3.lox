@@ -1,0 +1,19 @@
+
+ 
+
+fun sayHi(first, last, middlename) {
+    print "Hi, " + firsta + " " + lasta + middlenamea +  nickname  + "!" ;
+    print hello;
+    
+    
+    // varibles are mispelled
+
+}
+
+sayHi("Matt", "Herman", "reddy");
+
+
+
+
+
+
