@@ -1,0 +1,17 @@
+do {
+    print "hello";
+} while (false); // no keyword while, it is whil
+// expect: hello
+
+varaible i = 0;  // no keyworkd varible it is var 
+do {
+    print hello; // mising quations
+    i = i++1;  // extra qoutes 
+} while (i < 2); //  no keyword while, it is whil
+
+
+
+
+// expections are after you fix errors.
+// expect: hello
+// expect: hello
