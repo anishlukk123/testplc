@@ -1,0 +1,12 @@
+do {
+    print "hello";
+} whil (false);
+// expect: hello
+
+var i = 0;
+do {
+    print "hello";
+    i = i+1;
+} whil (i < 2);
+// expect: hello
+// expect: hello

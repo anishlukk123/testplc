@@ -1,0 +1,26 @@
+
+ 
+
+fun sayHi(first,last, middlename) {
+
+ var x = 1;
+ var y = 3;
+ var z = 4;
+    print "Hi, " + firsta + " " + lasta + middlenamea +  nickname  + "!" ;
+    print hello;
+    
+    
+    // varibles are mispelled
+    // nickname is nor defined
+    // "hello is not in quations"
+    // method is not defined 
+
+}
+
+sayH("Matt", "Herman", "reddy");
+
+
+
+
+
+
