@@ -19,9 +19,16 @@ public class lox {
 
 //< Evaluating Expressions had-runtime-error-field
   public static void main(String[] args) throws IOException {
-	
-	  runFile("/Users/sathyalukkireddy/eclipse-workspace/test2/src/test2/test4.lox");  // enter file path here 
-  
+	  
+	  runFile("/Users/sathyalukkireddy/eclipse-workspace/test2/src/test2/test2.lox");  // enter file path here 
+    if (args.length > 1) {
+      System.out.println("Usage: jlox [script]");
+      System.exit(64); // [64]
+    } else if (args.length == 1) {
+      runFile(args[0]);
+    } else {
+      runPrompt();
+    }
   }
 //> run-file
   private static void runFile(String path) throws IOException {
@@ -126,6 +133,3 @@ public class lox {
   }
 //< Evaluating Expressions runtime-error-method
 }
-
-
-
